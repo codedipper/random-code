@@ -1,0 +1,25 @@
+{
+  "name": "random-code",
+  "version": "0.0.1",
+  "description": "Generates a random code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedipper/random-code.git"
+  },
+  "keywords": [
+    "generator",
+    "code",
+    "id",
+    "random"
+  ],
+  "author": "Reverse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedipper/random-code/issues"
+  },
+  "homepage": "https://github.com/codedipper/random-code#readme"
+}
