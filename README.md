@@ -1,6 +1,8 @@
 # random-code
 ## About
-Generates a random code.
+Generates a random code/id.\
+One simple function and zero dependencies.\
+Made with love by codedipper.
 ## Installing
 `npm install @codedipper/random-code --save`
 ## Usage
