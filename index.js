@@ -1,7 +1,6 @@
 const { characters } = require("./characters.json");
 
-function generate(num){
-    if (!num) num = 10;
+function generate(num = 10){
     let code = "";
 
     for (let i = 0; i < parseInt(num); i++) {
