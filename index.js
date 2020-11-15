@@ -1,11 +1,10 @@
-const { characters } = require("./characters.json");
+const { chars } = require("./chars.json");
 
 function generate(num = 10){
     let code = "";
 
     for (let i = 0; i < parseInt(num); i++) {
-        let s = Math.floor(Math.random() * characters.length);
-        code = code + characters[s];
+        code = code + chars[Math.floor(Math.random() * chars.length)];
     }
 
     return code;
