@@ -1,6 +1,6 @@
 {
 	"name": "@codedipper/random-code",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "Generates a random code.",
 	"main": "lib/index.js",
 	"repository": {

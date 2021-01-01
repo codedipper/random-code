@@ -1,4 +1,4 @@
-/* @codedipper/random-code v2.0.0 */
+/* @codedipper/random-code v2.1.1 */
 const _chars = [
     "a",
     "b",
