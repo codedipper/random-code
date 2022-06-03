@@ -7,8 +7,8 @@ Made with love by codedipper.
 `npm i @codedipper/random-code`
 ## Browser
 Simply copy and paste any of the following script tags into your HTML:\
-`<script src="https://cdnjs.cloudflare.com/ajax/libs/random-code/2.2.0/browser.min.js"></script>`\
-`<script src="https://cdnjs.cloudflare.com/ajax/libs/random-code/2.2.0/browser.js"></script>`\
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/random-code/2.2.1/browser.min.js"></script>`\
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/random-code/2.2.1/browser.js"></script>`\
 Then use the `gen()` function as normal.
 ## Usage
 ```js
