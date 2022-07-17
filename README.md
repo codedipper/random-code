@@ -16,6 +16,8 @@ const gen = require("@codedipper/random-code");
 
 console.log(gen(10)); // Will generate ten character code.
 console.log(gen(4)); // Will generate four character code.
-console.log(gen(4, "0123456789"));
+console.log(gen(4, { chars: "0123456789" }));
 // ^ Will generate four character code with those specfic characters.
+console.log(gen(16, { pattern: "####-####-####-####" }))
+// ^ Will generate sixteen character code and replace with those hashes.
 ```
