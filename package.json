@@ -3,6 +3,7 @@
 	"version": "2.2.1",
 	"description": "Generates a random code.",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/codedipper/random-code.git"
