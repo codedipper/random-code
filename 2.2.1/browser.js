@@ -10,5 +10,3 @@ function gen(num = 10, chars = characters){
 
 	return code;
 };
-
-module.exports = gen;
