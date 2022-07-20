@@ -2,6 +2,8 @@
 	"name": "@codedipper/random-code",
 	"version": "3.0.0",
 	"description": "Generates a random code.",
+	"type": "commonjs",
+	"module": "index.mjs",
 	"main": "index.js",
 	"types": "index.d.ts",
 	"repository": {
@@ -15,9 +17,5 @@
 		"random"
 	],
 	"author": "Revvy",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/codedipper/random-code/issues"
-	},
-	"homepage": "https://github.com/codedipper/random-code#readme"
+	"license": "MIT"
 }
