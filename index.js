@@ -1,14 +1,11 @@
-const characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-";
+module.exports = function(n = 10, ch = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-"){
+	let c = "";
 
-function gen(num = 10, chars = characters){
-	let code = "";
-
-	if (num == "0" || num == null) num = 10;
-	for (let i = 0; i < parseInt(num); i++){
-		code += chars.split("")[Math.floor(Math.random() * chars.length)];
+	if (n == "0" || n == null) n = 10;
+	for (let i = 0; i < parseInt(n); i++){
+		c += ch.split("")[Math.floor(Math.random() * ch.length)];
 	}
 
-	return code;
+	return c;
 };
 
-module.exports = gen;

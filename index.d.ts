@@ -1,3 +1,2 @@
-declare function gen(num?: number, chars?: string): string
-export = gen;
+export function gen(num?: number, chars?: string): string
 
