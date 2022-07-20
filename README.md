@@ -2,7 +2,7 @@
 ## About
 Generates a random code/id.\
 One simple function and zero dependencies.\
-Made with love by codedipper.
+Node.js v6 required for CJS.
 ## Browser
 Simply copy and paste the following tag into your HTML:\
 `<script src="https://rc.revvy.de/3.0.0/browser.min.js"></script>`\
