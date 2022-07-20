@@ -1,4 +1,4 @@
-export function(n = 10, ch = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-"){
+export function gen(n = 10, ch = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-"){
 	let c = "";
 
 	if (n == "0" || n == null) n = 10;
